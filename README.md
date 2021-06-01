@@ -12,7 +12,7 @@ The product name of Checkmarx SAST solution is called CxSAST.
 1. The developers that using CxSAST mostly do not have adequate application security knowledge.
 2. The general recommendations does not provide details about how to fix a vulnerability found by CxSAST. Although the logic is inside the CxQL queries. There is a gap between the recommendations and the logic of CxQL queries.
 
-## The main logic of CxSAST to find a vulnerability is follow this pattern:
+## The main logic of CxSAST to find a vulnerability is this pattern:
 input -> sanitizer -> output
 
 If a sanitizer is found from the data flow, this data flow is considered secure. Otherwise it's considered vulnerable.
