@@ -1,0 +1,31 @@
+Supported from v9.2.0:
+5.11 CxList.CxSelectDomProperty<T> Method (Func<T,IGraph) where T : CSharpGraph
+5.12 CxList.CxSelectElements<T> Method (Func<T,IGraph, option) where T : CSharpGraph
+5.13 CxList.CxSelectElementsValues<T,I>(Func<T,I>) where: T : CSharpGraph
+5.30.1 CxList.GetDOMPropertiesOfFirst()
+5.30.2 CxList.Filter(Func<DOMProperties,bool)
+5.30.3 CxList.FilterByDomProperty<T> Method (Func<T, bool>) where T:CSharpGraph
+5.68 CxList.FindParameterByName Method (string)
+
+Supported from v9.4.0:
+5.59 CxList.FindByNames Method (param string[])
+5.60 CxList.FindByNames Method (string[], bool)
+5.61 CxList.FindByNames Method (string[], StringComparison)
+5.69 CxList.FindByNumberOfParameters Method (int)
+5.99 CxList.FindByTypes Method (params Type[])
+5.100 CxList.FindByType<T> Method ()
+5.101 CxList.FindByReturnTypes Method (params string[])
+5.102 CxList.FindByReturnTypes Method (params string[], bool stripPointerTypeRefFromReturnType = true)
+5.108 CxList.GetAncOfType<Type> Method () where T : CSharpGraph
+5.136 CxList.GetFirstNodesInPath Method()
+5.137 CxList.GetLastNodesInPath Method ()
+5.144 CxList.InheritsFrom Method (params string[])
+5.145 CxList.FindDescendantsOfType<T> Method (CxList)
+5.146 CxList.FindDescendantsOfType Method (CxList, Type)
+5.162 CxList.FindByFileNames Method (params string[])
+
+
+
+5.14 CxList.ExtractFromSOQL Method ()
+5.15 CxList.ExtractFromSOQL Method (string)
+
